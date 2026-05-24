@@ -4,15 +4,15 @@
 <p align="center">
   🎓 BCA Student at Arcade Business College, Patna &nbsp;|&nbsp;
   📍 Bihar, India &nbsp;|&nbsp;
-  🌱 Currently Learning CSS Grid
+  🌱 Currently Learning JavaScript
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🔭 I'm currently building projects with **HTML & CSS**
-- 🌱 Learning path: `HTML` → `CSS` → `JavaScript` → `React` → `Node.js` → `MongoDB`
+- 🔭 Currently building projects with **HTML, CSS & JavaScript**
+- 🌱 Learning path: `HTML` ✅ → `CSS` ✅ → `JavaScript` 🔥 → `React` → `Node.js` → `MongoDB`
 - 📺 Following **Love Babbar's** Web Dev playlist
 - 💡 I believe in **learning in public** — pushing code daily!
 - 📫 Connect with me on **LinkedIn**: [Pritam Kumar](https://www.linkedin.com/in/pritam-kumar-419915407)
@@ -24,9 +24,11 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![CSS Grid](https://img.shields.io/badge/CSS_Grid-264DE4?style=for-the-badge&logo=css3&logoColor=white)
+![Flexbox](https://img.shields.io/badge/Flexbox-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive_Design-38B2AC?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Coming_Soon-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
@@ -34,10 +36,11 @@
 
 | Topic | Progress |
 |-------|----------|
-| HTML5 | ████████████████████ 90% |
-| CSS3 & Flexbox | ████████████████░░░░ 80% |
-| CSS Grid | █████████████░░░░░░░ 65% |
-| JavaScript | ████░░░░░░░░░░░░░░░░ 20% |
+| HTML5 | ████████████████████ 95% |
+| CSS3 & Flexbox | ████████████████████ 90% |
+| CSS Grid | ██████████████████░░ 85% |
+| Responsive Design | ████████████████░░░░ 80% |
+| JavaScript | ██░░░░░░░░░░░░░░░░░░ 10% |
 | React | 🔜 Coming Soon |
 | Node.js & MongoDB | 🔜 Coming Soon |
 
@@ -57,11 +60,13 @@
 
 ## 🚀 My Projects
 
-| Project | Tech | Link |
-|---------|------|------|
-| 🍽️ Pritam Dev Dhaaba | HTML, CSS | [View](https://github.com/Blexedpritam/web-projects) |
-| 💼 Job Portal UI | HTML, CSS | [View](https://github.com/Blexedpritam/web-projects) |
-| 🛍️ Product Catalog | HTML, CSS | [View](https://github.com/Blexedpritam/web-projects) |
+| # | Project | Tech | Live Demo |
+|---|---------|------|-----------|
+| 1 | 📝 Blog Project | HTML, CSS, CSS Grid | [🔗 Live](https://blexedpritam.github.io/Web-Projects/Blog%20Project/) |
+| 2 | 🎓 StudySync | HTML, CSS, Responsive | [🔗 Live](https://blexedpritam.github.io/Web-Projects/StudySync%20Project/) |
+| 3 | 🍽️ Recipe Project | HTML, CSS | [🔗 Live](https://blexedpritam.github.io/Web-Projects/Recipe%20Project/) |
+| 4 | 🛍️ Product Catalog | HTML, CSS | [🔗 Live](https://blexedpritam.github.io/Web-Projects/project%202/) |
+| 5 | 💼 Job Portal UI | HTML, CSS | [🔗 Live](https://blexedpritam.github.io/Web-Projects/project%201/project1.html) |
 
 ---
 
