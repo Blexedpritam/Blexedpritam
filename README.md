@@ -4,18 +4,20 @@
 <p align="center">
   🎓 BCA Student at Arcade Business College, Patna &nbsp;|&nbsp;
   📍 Bihar, India &nbsp;|&nbsp;
-  🌱 Currently Learning JavaScript
+  🌱 Currently Learning JavaScript and C++
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🔭 Currently building projects with **HTML, CSS & JavaScript**
-- 🌱 Learning path: `HTML` ✅ → `CSS` ✅ → `JavaScript` 🔥 → `React` → `Node.js` → `MongoDB`
-- 📺 Following **Love Babbar's** Web Dev playlist
-- 💡 I believe in **learning in public** — pushing code daily!
-- 📫 Connect with me on **LinkedIn**: [Pritam Kumar](https://www.linkedin.com/in/pritam-kumar-419915407)
+* 🔭 Currently building projects with **HTML, CSS & JavaScript**
+* 🌱 Learning **JavaScript** for Web Development and **C++** for Programming Fundamentals
+* 🎯 Goal: Become a skilled **MERN Stack Developer**
+* 📺 Following **Love Babbar's** Web Development & Programming content
+* 💡 I believe in **learning in public** — documenting my journey and pushing code consistently
+* 📫 Connect with me on **LinkedIn**: [Pritam Kumar](https://www.linkedin.com/in/pritam-kumar-419915407)
+
 
 ---
 
@@ -27,22 +29,27 @@
 ![Flexbox](https://img.shields.io/badge/Flexbox-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Responsive](https://img.shields.io/badge/Responsive_Design-38B2AC?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-## 📈 Learning Progress
 
-| Topic | Progress |
-|-------|----------|
-| HTML5 | ████████████████████ 95% |
-| CSS3 & Flexbox | ████████████████████ 90% |
-| CSS Grid | ██████████████████░░ 85% |
+
+Update Learning Progress table:
+
+| Topic             | Progress                 |
+| ----------------- | ------------------------ |
+| HTML5             | ████████████████████ 95% |
+| CSS3 & Flexbox    | ████████████████████ 90% |
+| CSS Grid          | ██████████████████░░ 85% |
 | Responsive Design | ████████████████░░░░ 80% |
-| JavaScript | ██░░░░░░░░░░░░░░░░░░ 10% |
-| React | 🔜 Coming Soon |
-| Node.js & MongoDB | 🔜 Coming Soon |
+| JavaScript        | ████░░░░░░░░░░░░░░░░ 20% |
+| C++ Fundamentals  | ██░░░░░░░░░░░░░░░░░░ 10% |
+| React             | 🔜 Coming Soon           |
+| Node.js & MongoDB | 🔜 Coming Soon           |
+
 
 ---
 
