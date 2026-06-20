@@ -4,7 +4,7 @@
 <p align="center">
   🎓 BCA Student at Arcade Business College, Patna &nbsp;|&nbsp;
   📍 Bihar, India &nbsp;|&nbsp;
-  🌱 Currently Learning JavaScript and C++
+  🌱 Currently Learning JavaScript , Java and C++
 </p>
 
 ---
