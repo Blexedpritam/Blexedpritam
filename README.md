@@ -74,6 +74,9 @@ Update Learning Progress table:
 | 3 | 🍽️ Recipe Project | HTML, CSS | [🔗 Live](https://blexedpritam.github.io/Web-Projects/Recipe%20Project/) |
 | 4 | 🛍️ Product Catalog | HTML, CSS | [🔗 Live](https://blexedpritam.github.io/Web-Projects/project%202/) |
 | 5 | 💼 Job Portal UI | HTML, CSS | [🔗 Live](https://blexedpritam.github.io/Web-Projects/project%201/project1.html) |
+| 56| ⌛ CountDownTimer | HTML, CSS, Java Script | [🔗 Live](https://blexedpritam.github.io/Web-Projects/CountDownTimer/) |
+
+
 
 ---
 
