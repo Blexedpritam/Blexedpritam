@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam Kumar - MERN Stack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-image: url('https://github.com/Blexedpritam/Blexedpritam/raw/main/assets/banner.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+        }
+
+        /* Dark overlay for text readability */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.55);
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 20px;
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .header h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #61DAFB;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+
+        .social-links img {
+            height: 40px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #61DAFB, transparent);
+            margin: 40px 0;
+            box-shadow: 0 0 10px rgba(97, 218, 251, 0.5);
+        }
+
+        /* Section Styles */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            color: #61DAFB;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+            border-bottom: 2px solid #61DAFB;
+            padding-bottom: 10px;
+        }
+
+        .section p, .section li {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 12px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        .section ul {
+            margin-left: 30px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .skill-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: rgba(97, 218, 251, 0.2);
+            border: 1px solid #61DAFB;
+            border-radius: 25px;
+            font-size: 0.95rem;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        /* Progress Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(97, 218, 251, 0.3);
+        }
+
+        table th {
+            background: rgba(97, 218, 251, 0.3);
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #61DAFB;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(97, 218, 251, 0.2);
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        table tr:hover {
+            background: rgba(97, 218, 251, 0.1);
+        }
+
+        /* Projects Table */
+        .projects-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(97, 218, 251, 0.3);
+        }
+
+        .projects-table th {
+            background: rgba(97, 218, 251, 0.3);
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #61DAFB;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        .projects-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(97, 218, 251, 0.2);
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+        }
+
+        .projects-table a {
+            color: #61DAFB;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .projects-table a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .projects-table tr:hover {
+            background: rgba(97, 218, 251, 0.1);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 1.1rem;
+            font-style: italic;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+            margin-top: 40px;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.2rem;
+            }
+
+            .header h3 {
+                font-size: 1.2rem;
+            }
+
+            .section h2 {
+                font-size: 1.8rem;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+
+            table, .projects-table {
+                font-size: 0.9rem;
+            }
+
+            table th, table td, .projects-table th, .projects-table td {
+                padding: 10px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>👋 Hi, I'm Pritam Kumar</h1>
+            <h3>Aspiring MERN Stack Developer | Learning in Public 🚀</h3>
+            <p>🎓 BCA Student at Arcade Business College, Patna &nbsp;|&nbsp; 📍 Bihar, India &nbsp;|&nbsp; 🌱 Currently Learning React, Node.js & C++</p>
+            
+            <div class="social-links">
+                <a href="https://linkedin.com/in/pritam-kumar-419915407" target="_blank">
+                    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Blexedpritam" target="_blank">
+                    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+                </a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- About Me Section -->
+        <div class="section">
+            <h2>👨‍💻 About Me</h2>
+            <ul>
+                <li>🔭 Currently building projects with <strong>HTML, CSS & JavaScript</strong></li>
+                <li>✅ Completed core <strong>JavaScript</strong> fundamentals — now moving into <strong>React</strong></li>
+                <li>🎯 Goal: Become a skilled <strong>MERN Stack Developer</strong></li>
+                <li>📺 Following <strong>Love Babbar's</strong> Web Development & Programming content</li>
+                <li>💡 I believe in <strong>learning in public</strong> — documenting my journey and pushing code consistently</li>
+                <li>📫 Connect with me on <strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/pritam-kumar-419915407" style="color: #61DAFB; text-decoration: none;">Pritam Kumar</a></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>🛠️ Skills</h2>
+            <div class="skills-container">
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">CSS Grid</span>
+                <span class="skill-badge">Flexbox</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">C++</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">GitHub</span>
+            </div>
+
+            <h3 style="font-size: 1.5rem; margin-top: 30px; margin-bottom: 15px; color: #61DAFB; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);">Learning Progress</h3>
+            <table>
+                <tr>
+                    <th>Topic</th>
+                    <th>Progress</th>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>████████████████████ 95%</td>
+                </tr>
+                <tr>
+                    <td>CSS3 & Flexbox</td>
+                    <td>████████████████████ 90%</td>
+                </tr>
+                <tr>
+                    <td>CSS Grid</td>
+                    <td>██████████████████░░ 85%</td>
+                </tr>
+                <tr>
+                    <td>Responsive Design</td>
+                    <td>████████████████░░░░ 80%</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>████████████████████ 100% ✅</td>
+                </tr>
+                <tr>
+                    <td>C++ Fundamentals</td>
+                    <td>██░░░░░░░░░░░░░░░░░░ 10%</td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>🔜 Just Started</td>
+                </tr>
+                <tr>
+                    <td>Node.js & MongoDB</td>
+                    <td>🔜 Coming Soon</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>🚀 My Projects</h2>
+            <table class="projects-table">
+                <tr>
+                    <th>#</th>
+                    <th>Project</th>
+                    <th>Tech</th>
+                    <th>Live Demo</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>📝 Blog Project</td>
+                    <td>HTML, CSS, CSS Grid</td>
+                    <td><a href="https://blexedpritam.github.io/Web-Projects/Blog%20Project/" target="_blank">Live</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>🎓 StudySync</td>
+                    <td>HTML, CSS, Responsive</td>
+                    <td><a href="https://blexedpritam.github.io/Web-Projects/StudySync%20Project/" target="_blank">Live</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>🍽️ Recipe Project</td>
+                    <td>HTML, CSS</td>
+                    <td><a href="https://blexedpritam.github.io/Web-Projects/Recipe%20Project/" target="_blank">Live</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>☁️ Weather</td>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td><a href="https://blexedpritam.github.io/Web-Projects/Weather/" target="_blank">Live</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>🛍️ Product Catalog</td>
+                    <td>HTML, CSS</td>
+                    <td><a href="https://blexedpritam.github.io/Web-Projects/project%202/" target="_blank">Live</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>💼 Job Portal UI</td>
+                    <td>HTML, CSS</td>
+                    <td><a href="https://blexedpritam.github.io/Web-Projects/project%201/project1.html" target="_blank">Live</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>⌛ CountDownTimer</td>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td><a href="https://blexedpritam.github.io/Web-Projects/CountDownTimer/" target="_blank">Live</a></td>
+                </tr>
+            </table>
+            <p style="margin-top: 20px;"><em>Full collection: <a href="https://github.com/Blexedpritam/Web-Projects" style="color: #61DAFB; text-decoration: none;">Web-Projects repo</a></em></p>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>⚡ "Every expert was once a beginner. Keep pushing!" ⚡</p>
+        </div>
+    </div>
+
+</body>
+</html>
