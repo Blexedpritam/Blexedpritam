@@ -5,7 +5,7 @@
 </div>
 
 <h1 align="center">👋 Hi, I'm Pritam Kumar</h1>
-<h3 align="center">Aspiring MERN Stack Developer | Learning in Public 🚀</h3>
+<h3 align="center">Aspiring MERN Stack Developer | 9 Months break for MERN learning  </h3>
 
 <p align="center">
 🎓 BCA Student at Arcade Business College, Patna &nbsp;|&nbsp;
