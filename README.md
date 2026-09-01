@@ -71,22 +71,22 @@ A curated list of front-end mini-projects I built while learning. Each project i
 
 | # | Project | Tech / Notes | Live Demo |
 |---:|---|---|---|
-| 1 | ⌛ Countdown Timer | HTML, CSS, JS — timer UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/CountDownTimer/) |
-| 2 | 🔐 Random Password | HTML, CSS, JS — password generator | [Live Demo](https://blexedpritam.github.io/Web-Projects/Random%20Password/) |
-| 3 | ☁️ Weather | HTML, CSS, JS — weather UI (API demo) | [Live Demo](https://blexedpritam.github.io/Web-Projects/Weather/) |
-| 4 | ✅ To Do List | HTML, CSS, JS — basic todo app | [Live Demo](https://blexedpritam.github.io/Web-Projects/To%20Do%20list/) |
-| 5 | 💈 Barbar | HTML, CSS, JS — UI practice | [Live Demo](https://blexedpritam.github.io/Web-Projects/Barbar/) |
-| 6 | 🌙 Dark Theme | HTML, CSS, JS — theme toggle demo | [Live Demo](https://blexedpritam.github.io/Web-Projects/Dark%20Theme/) |
-| 7 | 📝 Blog Project | HTML, CSS — static blog layout | [Live Demo](https://blexedpritam.github.io/Web-Projects/Blog%20Project/) |
-| 8 | 🍽️ Recipe Project | HTML, CSS — recipe cards | [Live Demo](https://blexedpritam.github.io/Web-Projects/Recipe%20Project/) |
-| 9 | 🎓 StudySync | HTML, CSS — landing/portfolio UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/StudySync%20Project/) |
-|10 | 🔧 Project 0 | HTML — practice page | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%200/) |
-|11 | 💼 Job Portal (Project 1) | HTML — single-page UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%201/project1.html) |
-|12 | 🛍️ Product Catalog (Project 2) | HTML — product listing UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%202/) |
-|13 | 🎵 Media Project (Project 3) | HTML — audio/video demo | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%203/media.html) |
-|14 | 🃏 Card Practice — Card 1 | HTML — card design #1 | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%205/first_card.html) |
-|15 | 🃏 Card Practice — Card 2 | HTML — card design #2 | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%205/second_card.html) |
-|16 | 🃏 Card Practice — Card 3 | HTML — card design #3 | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%205/third_card.html) |
+| 1 |Countdown Timer | HTML, CSS, JS — timer UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/CountDownTimer/) |
+| 2 |Random Password | HTML, CSS, JS — password generator | [Live Demo](https://blexedpritam.github.io/Web-Projects/Random%20Password/) |
+| 3 |Weather | HTML, CSS, JS — weather UI (API demo) | [Live Demo](https://blexedpritam.github.io/Web-Projects/Weather/) |
+| 4 |To Do List | HTML, CSS, JS — basic todo app | [Live Demo](https://blexedpritam.github.io/Web-Projects/To%20Do%20list/) |
+| 5 |Barbar | HTML, CSS, JS — UI practice | [Live Demo](https://blexedpritam.github.io/Web-Projects/Barbar/) |
+| 6 |Dark Theme | HTML, CSS, JS — theme toggle demo | [Live Demo](https://blexedpritam.github.io/Web-Projects/Dark%20Theme/) |
+| 7 |Blog Project | HTML, CSS — static blog layout | [Live Demo](https://blexedpritam.github.io/Web-Projects/Blog%20Project/) |
+| 8 |Recipe Project | HTML, CSS — recipe cards | [Live Demo](https://blexedpritam.github.io/Web-Projects/Recipe%20Project/) |
+| 9 |StudySync | HTML, CSS — landing/portfolio UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/StudySync%20Project/) |
+|10 |Project 0 | HTML — practice page | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%200/) |
+|11 |Job Portal (Project 1) | HTML — single-page UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%201/project1.html) |
+|12 |Product Catalog (Project 2) | HTML — product listing UI | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%202/) |
+|13 |Media Project (Project 3) | HTML — audio/video demo | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%203/media.html) |
+|14 |Card Practice — Card 1 | HTML — card design #1 | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%205/first_card.html) |
+|15 |Card Practice — Card 2 | HTML — card design #2 | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%205/second_card.html) |
+|16 |Card Practice — Card 3 | HTML — card design #3 | [Live Demo](https://blexedpritam.github.io/Web-Projects/project%205/third_card.html) |
 
 *Full collection / source code: [Blexedpritam/Web-Projects](https://github.com/Blexedpritam/Web-Projects)*
 
