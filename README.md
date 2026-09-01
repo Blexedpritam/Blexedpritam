@@ -5,12 +5,12 @@
 </div>
 
 <h1 align="center">Hi, I'm Pritam Kumar</h1>
-<h3 align="center">Aspiring MERN Stack Developer | 9 Months break form MERN learning  </h3>
+<h3 align="center">Aspiring MERN Stack Developer | 9 Months break form MERN learning | Current learning Backend Farmeworks</h3>
 
 <p align="center">
 🎓 BCA Student at Arcade Business College, Patna &nbsp;|&nbsp;
 📍 Bihar, India &nbsp;|&nbsp;
-🌱 Currently Learning React, Node.js & C++
+🌱 Currently Learning React, Node.js & Java
 </p>
 
 <p align="center">
@@ -25,7 +25,6 @@
 - 🔭 Currently building projects with **HTML, CSS & JavaScript**
 - ✅ Completed core **JavaScript** fundamentals — now moving into **React**
 - 🎯 Goal: Become a skilled **MERN Stack Developer**
-- 📺 Following **Love Babbar's** Web Development & Programming content
 - 💡 I believe in **learning in public** — documenting my journey and pushing code consistently
 - 📫 Connect with me on **LinkedIn**: [Pritam Kumar](https://www.linkedin.com/in/pritam-kumar-419915407)
 
@@ -39,7 +38,7 @@
 ![Flexbox](https://img.shields.io/badge/Flexbox-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+/*  java badge*/
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -52,7 +51,7 @@
 | CSS Grid | ██████████████████░░ 85% |
 | Responsive Design | ████████████████░░░░ 80% |
 | JavaScript | ████████████████████ 100% ✅ |
-| C++ Fundamentals | ██░░░░░░░░░░░░░░░░░░ 10% |
+Java Learning Process
 | React | 🔜 Just Started |
 | Node.js & MongoDB | 🔜 Coming Soon |
 
