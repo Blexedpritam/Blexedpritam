@@ -1,7 +1,7 @@
 # Pritam Kumar
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00C7FF&center=true&vCenter=true&width=700&lines=Aspiring+Full+Stack+Developer;Learning+React%2C+Node.js+%26+Java;Building+real+world+web+projects" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00C7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Learning+React%2C+Node.js+%26+Java;Building+real+world+web+projects" alt="Typing SVG" />
 </div>
 
 <p align="center">
